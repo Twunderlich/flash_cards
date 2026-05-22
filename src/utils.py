@@ -1,5 +1,10 @@
 import time
+import random
 
+def get_random_index(list):
+    return random.randrange(0, len(list))
+
+# "typing" functions and data
 pauses = {
     ",": .2,
     ":": .2,
